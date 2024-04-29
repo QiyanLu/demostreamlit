@@ -22,3 +22,7 @@ st.pyplot(plt)
 
 # Add a text input for comments or notes
 notes = st.text_area("Add your comments or notes here")
+
+tab1, tab2 = st.tabs(["Tab 1", "Tab 2"])
+tab1.write("This is a tab")
+tab2.write("This is another tab")
